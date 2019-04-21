@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="icon" href="D:\4th sem\My page\images\ar.jpg" type="image">
+<script src="jquery-3.2.1.min.js"></script>
+<script> 
+$(document).ready(function(){
+    $(".1").mouseenter(function(){
+        $(".1").animate({
+            
+            opacity: '0.5',
+            borderRadius:'50%',
+            height: '310px',
+            width: '32%'
+        });
+    });
+    $(".1").mouseleave(function(){
+        $(".1").animate({
+            
+            opacity: '1',
+            height: '300px',
+            width: '30%'
+        });
+    });
+});
+$(document).ready(function(){
+    $(".2").mouseenter(function(){
+        $(".2").animate({
+            
+            opacity: '0.5',
+            borderRadius:'50%',
+            height: '310px',
+            width: '32%'
+        });
+    });
+    $(".2").mouseleave(function(){
+        $(".2").animate({
+            
+            opacity: '1',
+            height: '300px',
+            width: '30%'
+        });
+    });
+});
+</script> 
+        
+</head>
+<body style="background-image:url(images/h.jpg);height: 100%; 
+    background-repeat: no-repeat;
+    background-size: cover;">
+<p style="color:Black; font-size:40px; font-family:Vollkorn;" align="center">Types of Video Tutorials</p>
+<hr size="3px" noshade color="gold"> <i><font size="5px" color="white" >
+<br><br><br>
+<a href="Video.html"><img class="1" src="images/jkl.jpg"  style="width:30%;height:300px; float:left; margin-right:3%; margin-left:6%; margin-bottom:1%;"></a>
+<a href="Videoo.html"><img class="2" src="images/mmm.jpg"  style="width:30%;height:300px; margin-left:15%; margin-bottom:4%;"></a>
+<br>
+<span style="margin-left:8%; font-family:Castellar; font-size:30px; color:White;">Basic Guitar Lessons</span>
+<span style="margin-left:25%;font-family:Castellar; font-size:30px; color:White;">Play Songs on Guitar</span>
+
+
+</body>
+</html>

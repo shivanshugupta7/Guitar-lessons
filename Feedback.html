@@ -1,0 +1,46 @@
+<!Doctype html>
+<html>
+<head><title>Feedback</title>
+<link rel="icon" href="D:\4th sem\My page\images\ar.jpg" type="image">
+</head>
+<body style="background-image:url(images/backg.jpg);height: 100%; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:dark black">
+<script>
+function validateForm() {
+    var x = document.forms["myForm"]["fname"].value;
+    if (x == "") {
+        alert("Name must be filled out");
+        return false;
+    }
+    var a = document.forms["myForm"]["fname1"].value;
+    if (a == "") {
+        alert("age must be filled out");
+        return false;         
+
+    }
+	 var x = document.forms["myForm"]["fname2"].value;
+   
+}
+</script>
+<body>
+<form name="myForm" action="/action_page.php"
+onsubmit="return validateForm()" method="post" style="color:white";>
+<br><br>
+Name: <input type="text" name="fname" >
+Age: <input type="text" name="fname1" >
+<br><br><br>
+Submit Your Feedback Here:<br>
+<textarea rows="10" cols="50" style="font-size:15px;font-family:algerian;color:red;center" required> 
+</textarea><br>
+<input type="submit" value="Submit">
+<input type="reset" value="Reset">
+</form>
+<br>
+<br>	      	   
+<br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br>
+<button><a href="initial page.html">Home</a></button>
+</body>
+</html>
